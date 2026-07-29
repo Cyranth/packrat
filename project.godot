@@ -1,0 +1,19 @@
+[application]
+config/name="Pack Rat"
+config/description="A scavenging incremental game about a rat building a nest in an abandoned attic."
+run/main_scene="res://scenes/main/Main.tscn"
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=0
+window/size/resizable=false
+window/dpi/allow_hidpi=true
+
+[autoload]
+GameState="*res://autoload/GameState.gd"
+ResourceManager="*res://autoload/ResourceManager.gd"
+Globals="*res://autoload/Globals.gd"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
